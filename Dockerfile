@@ -10,11 +10,11 @@ COPY *.sh .
 # Provide metadata as labels
 ARG IMAGE_VERSION
 ARG IMAGE_REVISION
-LABEL org.opencontainers.image.authors="support@cytomine.com" \
-      org.opencontainers.image.url="https://www.cytomine.com/" \
-      org.opencontainers.image.documentation="https://doc.cytomine.com/" \
-      org.opencontainers.image.source="https://github.com/cytomine/Cytomine-docker-entrypoint-scripts" \
-      org.opencontainers.image.vendor="Cytomine Corporation SA" \
+LABEL org.opencontainers.image.authors="uliege@cytomine.org" \
+      org.opencontainers.image.url="https://uliege.cytomine.org/" \
+      org.opencontainers.image.documentation="https://doc.uliege.cytomine.org/" \
+      org.opencontainers.image.source="https://github.com/Cytomine-ULiege/Cytomine-docker-entrypoint-scripts" \
+      org.opencontainers.image.vendor="Cytomine ULiège" \
       org.opencontainers.image.version="${IMAGE_VERSION}" \
       org.opencontainers.image.revision="${IMAGE_REVISION}"
 
